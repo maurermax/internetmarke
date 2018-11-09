@@ -13,7 +13,13 @@ A node wrapper for the Internetmarke web service of the Deutsche Post
 ## Installation
 
 ```sh
-npm i internetmarke
+$ npm i internetmarke
+```
+
+Of course you can also use yarn:
+
+```sh
+$ yarn add internetmarke
 ```
 
 
@@ -217,7 +223,7 @@ const addressBinding = factory.bindAddresses({ receiver, sender});
 
 internetmarke.orderVoucher({
   addressBinding
-  /** further voucher info ... **/
+  /* further voucher info here */
 });
 ```
 
